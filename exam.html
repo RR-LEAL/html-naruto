@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscrição Exame Chunin</title>
+  <link rel="stylesheet" href="styles/style-exam.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-title">
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Simbolo_konoha.svg/2048px-Simbolo_konoha.svg.png"
+        alt="">
+
+      <h1 class="title">Inscreva-se para o Exame Chunin 2022</h1>
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Simbolo_konoha.svg/2048px-Simbolo_konoha.svg.png"
+        alt="">
+
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <h1 class="main-title">Formulário de Inscrição</h1>
+
+    <form>
+
+      <fieldset class="personal-data">
+        <legend>Dados Pessoais</legend>
+        <div>
+          <label for="name">Nome completo:</label>
+          <input class="custom-input" type="text" name="name" id="name">
+        </div>
+
+        <div>
+          <label for="birthDate">Data de Nascimento:</label>
+          <input class="custom-input" type="date" name="userBirth" id="birthDate">
+        </div>
+
+        <div>
+          <label for="phone">Telefone:</label>
+          <input class="custom-input" type="tel" name="userPhone" id="phone" placeholder="Somente números">
+        </div>
+
+        <label for="minor">Você é menor de idade?</label>
+        <select class="custom-input"  name="minor" id="minor">
+          <option value="1">Sim</option>
+          <option value="2">Não</option>
+        </select>
+
+             </fieldset>
+
+      <fieldset class="village">
+        <legend>Vila de Origem</legend>
+
+        <div>
+          <input type="radio" name="village" id="konohagakure">
+          <label  class="name-village" for="konohagakure">Konohagakure</label>
+        </div>
+
+        <div>
+          <input type="radio" name="village" id="sunagakure">
+          <label class="name-village" for="sunagakure">Sunagakure</label>
+        </div>
+
+        <div>
+          <input type="radio" name="village" id="Kumogakure">
+          <label class="name-village" for="Kumogakure">Kumogakure</label>
+        </div>
+
+        <div>
+          <input type="radio" name="village" id="Kirigakure">
+          <label class="name-village" for="Kirigakure">Kirigakure</label>
+        </div>
+
+        <div>
+          <input type="radio" name="village" id="Iwagakure">
+          <label class="name-village" for="Iwagakure">Iwagakure</label>
+        </div>
+
+        <div>
+          <input type="radio" name="village" id="Otogakure">
+          <label class="name-village" for="Otogakure">Otogakure</label>
+        </div>
+
+
+      </fieldset>
+
+      <fieldset class="kekkei">
+        <legend>Kekkei Genkai</legend>
+
+        <h2>Possui algum Kekkei Genkai?</h2>
+
+        <input type="radio" name="firstOption" id="yes">
+        <label for="yes">Sim</label>
+
+        <input type="radio" name="firstOption" id="no">
+        <label for="no">Não</label>
+
+        <h3>Se sim, qual ou quais?</h3>
+
+        <div>
+
+          <input type="checkbox" name="kenkeiGenkai" id="bakuton" class="custom-checkbox" >
+          <img src="./styles/Assets/image/Bakuton.png" alt="bakuton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="byakugan" class="custom-checkbox" >
+          <img src="./styles/Assets/image/Byakugan.png" alt="byakugan">
+
+          <input type="checkbox" name="kenkeiGenkai" id="claiburi" class="custom-checkbox" >
+          <img src="./styles/Assets/image/ClaIburi.png" alt="claiburi">
+
+
+          <input type="checkbox" name="kenkeiGenkai" id="clakurama" class="custom-checkbox" >
+          <img src="./styles/Assets/image/ClaKurama.png" alt="clakurama">
+
+          <input type="checkbox" name="kenkeiGenkai" id="enton" class="custom-checkbox" >
+          <img src="./styles/Assets/image/Enton.png" alt="Enton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="futton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Futton.png" alt="futton">
+
+        </div>
+
+        <div>
+
+          <input type="checkbox" name="kenkeiGenkai" id="jinton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Jinton.png" alt="jinton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="jiton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Jiton.png" alt="jiton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="ketsuryugan" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Ketsuryugan.png" alt="ketsuryugan">
+
+          <input type="checkbox" name="kenkeiGenkai" id="koton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Koton.png" alt="koton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="mangekyosharingan" class="custom-checkbox" >
+          <img src="./styles/Assets/image/MangekyoSharingan.png" alt="mangekyosharingan">
+
+          <input type="checkbox" name="kenkeiGenkai" id="meiton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Meiton.png" alt="meiton">
+
+        </div>
+
+        <div>
+
+          <input type="checkbox" name="kenkeiGenkai" id="ranmaru" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Ranmaru.png" alt="ranmaru">
+
+          <input type="checkbox" name="kenkeiGenkai" id="ranton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Ranton.png" alt="ranton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="rinnegan" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Rinnegan.png" alt="rinnegan">
+
+          <input type="checkbox" name="kenkeiGenkai" id="ryuzetsu" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Ryuzetsu.png" alt="ryuzetsu">
+
+          <input type="checkbox" name="kenkeiGenkai" id="sakoneukon" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Sakon_e_Ukon.png" alt="sakoneukon">
+
+          <input type="checkbox" name="kenkeiGenkai" id="shakuton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Shakuton.png" alt="shakuton">
+
+        </div>
+
+        <div>
+
+          <input type="checkbox" name="kenkeiGenkai" id="shoton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Shoton.png" alt="shoton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="taiton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Taiton.png" alt="taiton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="tenseigan" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Tenseigan.png" alt="tenseigan">
+
+          <input type="checkbox" name="kenkeiGenkai" id="yochi" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Yochi.png" alt="yochi">
+
+          <input type="checkbox" name="kenkeiGenkai" id="yoton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Yoton.png" alt="yoton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="sharingan" class="custom-checkbox" >
+          <img src="./styles/Assets/image/Sharingan.png" alt="sharingan">
+
+        </div>
+
+        <div>
+          <input type="checkbox" name="kenkeiGenkai" id="hyoton" class="custom-checkbox" >
+          <img src="./styles/Assets/image/Hyoton.png" alt="hyoton">
+
+          <input type="checkbox" name="kenkeiGenkai" id="mokuton" class="custom-checkbox" >
+          <img  src="./styles/Assets/image/Mokuton.png" alt="mokuton">
+        </div>
+                    
+      </fieldset>
+
+      <div class="alinhamentoBotao tamanhoBotao"> 
+        <input class="button" type="reset" value="Resetar*">
+        <input class="button" type="submit" value="Enviar">
+        </div>
+
+        <h2 class="note">*Clique no botão resetar se quiser limpar este formulário</h2>
+       
+    </form>
+
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+/* // @import url("https://www.dafont.com/pt/ninja-naruto.fonty=swap");
+// @import url("https://www.dafont.com/pt/ninja-naruto.font"); */
+
+@font-face {
+    font-family: 'njnaruto';
+    src: url('./Assets/njnaruto.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp5845540.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: 2500px 940px; */
+  background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  font-family: "njnaruto";
+  background-color: rgb(55, 184, 87);
+  height: 120px ;
+}
+
+.nav-title {
+
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;  
+}
+
+.nav-title img {
+
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin: 12px auto;
+  
+}
+
+.nav-menu {
+
+  display: flex;
+  /* gap: 24px; */
+  justify-content: center;
+}
+
+.nav-menu ul {
+
+  display: flex;
+  gap: 28px;
+  padding: 1px 0;
+
+}
+
+.nav-menu ul a {
+
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: .2s;
+
+}
+
+.nav-menu ul a:hover {
+
+  color: rgb(207, 111, 0);
+  
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.502);
+  text-align: center;
+  font-size: 20px;
+  color: rgb(238, 231, 231);
+  padding: 50px 100px;
+  font-family:sans-serif
+}
+
+h1,
+h2 {
+  font-family: "njnaruto";
+  align-items: center;
+}
+
+iframe {
+  align-items: center;
+  width: 90%;
+  height: 720px;
+  margin: 50px;
+}
+
+.title {
+
+  padding: 24px;
+
+}
+
+ul {
+  list-style: none
+}
+
+.button {
+
+  border: none;
+  border-radius: 20px;
+  color: rgb(238, 231, 231);
+  background-color: rgb(24, 136, 52);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  transition: .4s;
+
+}
+
+.button:hover {
+
+  background-color: rgb(59, 247, 106);
+
+}
+
+.social-media img {
+  width: 50px;
+  margin: 50px 10px;
+  transition: .3s;
+  
+}
+
+.social-media img:hover {
+
+  transform: translate(0, -10px);
+
+}
+
